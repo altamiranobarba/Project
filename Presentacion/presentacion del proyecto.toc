@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.22pt}
+\select@language {spanish}
+\beamer@sectionintoc {2}{Descripcion del Proyecto}{3}{0}{1}
+\beamer@sectionintoc {3}{Escenario de compra}{4}{0}{2}
+\beamer@sectionintoc {4}{Experiencia en desarrollo}{13}{0}{3}
