@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/canguilmedianofoto"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="21dp"
+        android:layout_x="48dp"
+        android:layout_y="24dp"
+        android:src="@drawable/canguilpng" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="84dp"
+        android:text="Mediano $3" />
+
+    <ImageView
+        android:id="@+id/canguilgrandefoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_x="189dp"
+        android:layout_y="17dp"
+        android:src="@drawable/canguilpng" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="88dp"
+        android:text="Grande $5" />
+
+    <ImageView
+        android:id="@+id/hotresfoto"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="23dp"
+        android:layout_x="196dp"
+        android:layout_y="127dp"
+        android:src="@drawable/hotpng" />
+
+    <ImageView
+        android:id="@+id/hotpollofoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="23dp"
+        android:layout_x="48dp"
+        android:layout_y="125dp"
+        android:src="@drawable/hotpng" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="196dp"
+        android:text="Pollo $3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="207dp"
+        android:layout_y="195dp"
+        android:text="Res $4" />
+
+    <ImageView
+        android:id="@+id/nachofoto"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_x="121dp"
+        android:layout_y="214dp"
+        android:src="@drawable/nachopng" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="289dp"
+        android:text="Nachos $4" />
+
+    <ImageView
+        android:id="@+id/boton_guardar_pedido"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_x="56dp"
+        android:layout_y="315dp"
+        android:src="@drawable/acep" />
+
+    <ImageView
+        android:id="@+id/boton_cancelar_pedido"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_x="192dp"
+        android:layout_y="315dp"
+        android:src="@drawable/canc" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_x="2dp"
+        android:layout_y="376dp"
+        android:text="Total Actual"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/total_pedido_canguil"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="380dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

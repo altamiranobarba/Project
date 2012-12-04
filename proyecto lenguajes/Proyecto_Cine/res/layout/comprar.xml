@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andr" >
+     <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            
+            android:background="#000000" >
+
+            
+
+            
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/textcine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En cual cine esta actualmente?"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+            </LinearLayout>
+
+            
+
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.04" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.09" >
+            </LinearLayout>
+
+            <LinearLayout
+					    android:id="@+id/linearLayout1"
+					    android:layout_width="0dp"
+					    android:layout_height="fill_parent"
+					    android:layout_weight="1" >
+					</LinearLayout>
+					
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.09">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.05" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</RelativeLayout>

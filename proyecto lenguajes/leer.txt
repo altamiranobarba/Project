@@ -1,0 +1,12 @@
+Subir la carpeta Cinem a internet....no olvidar modificar el archivo config.php dentro de la carpeta Cinem....
+
+
+cuando se haya subido la base
+modificar en el proyecto la clase en el atributo
+String IP_Server="10.0.2.2";//aqui se modifica por el nuevo servidor
+   String URL_connect_id="http://"+IP_Server+"/Cinem/factura.php";//con el nuevo servidor, escoger la ruta adecuada al archivo php
+Esto se debe modificar en las clases:
+-FacturaCodigo
+-GenerarFactura
+-Login
+-Mapas

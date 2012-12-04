@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+  <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_x="0dp"
+        android:layout_y="33dp"
+        android:text="Seleccione Bebida Favorita"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="33dp"
+         android:layout_x="93dp"
+         android:layout_y="66dp" />
+
+     <ImageView
+         android:id="@+id/vasomediano"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="59dp"
+         android:layout_y="140dp"
+         android:src="@drawable/vasopng" />
+
+     <ImageView
+         android:id="@+id/vasogrande"
+         android:layout_width="82dp"
+         android:layout_height="82dp"
+         android:layout_x="178dp"
+         android:layout_y="131dp"
+         android:src="@drawable/vasopng" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="64dp"
+         android:layout_y="226dp"
+         android:text="Mediano $3" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="194dp"
+         android:layout_y="230dp"
+         android:text="Grande $5" />
+
+     <ImageView
+         android:id="@+id/boton_guardar_bebida"
+         android:layout_width="46dp"
+         android:layout_height="46dp"
+         android:layout_x="81dp"
+         android:layout_y="294dp"
+         android:src="@drawable/acep" />
+
+     <ImageView
+         android:id="@+id/boton_cancelar_bebida"
+         android:layout_width="46dp"
+         android:layout_height="46dp"
+         android:layout_x="200dp"
+         android:layout_y="299dp"
+         android:src="@drawable/canc" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="14dp"
+         android:layout_x="3dp"
+         android:layout_y="370dp"
+         android:text="Total Actual"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/total_valor_bebida"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="210dp"
+         android:layout_y="358dp"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+</AbsoluteLayout>
